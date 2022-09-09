@@ -1,0 +1,22 @@
+{
+    "name": "brodaty/justjoinit-reader",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Brodaty\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sebastian Łuczak",
+            "email": "sebastian.m.luczak@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "laminas/laminas-feed": "2.19.x-dev",
+        "laminas/laminas-http": "2.17.x-dev",
+        "ext-dom": "*"
+    }
+}
